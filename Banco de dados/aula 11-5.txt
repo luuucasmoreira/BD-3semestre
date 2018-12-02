@@ -1,0 +1,17 @@
+Junção hibrida
+
+junção entre dois tabelas hibrida com um padrao, esse metodo nao é muito usado por que ele junta aleatoriamente
+então, é mais no modo de querer metodos de junção na hora de buscar, buscando todas as possibilidades, todas as combinações diferentes
+
+sintaxe
+SELECT E.COD_EMP , E.NOME, D.COD_DEPT, D.NOME FROM EMPREGADO E, DEPARTAMENTO D;
+-------------------------------------
+
+jUNÇOES IDENTICAS
+Trazer duas tabelas por campo, ou seja
+so vou trazer tiago no bairro aonde mora
+so vou trazer pedro pelo bairro aonde mora
+(no caso de buscar por bairro)
+
+sintaxe
+SELECT E.COD_EMP, ENOME, D.COD_DEPT, D.NOME_DEPT FROM EMPREGADO E, DEPARTAMENTO D WHERE E.COD_DEPT = D.COD_DEPT;

@@ -1,0 +1,13 @@
+Todo banco de dados vai ser 
+AI ou AS
+AI = á é diferente de â
+AS = á = â
+
+
+casesensitive é maisculo e minusculo sao diferentes
+
+*Padrao do MySQL é AI e Incase sensitive
+
+condição upper(nome_campo) ele da tudo em caixa alta
+ex:
+SELECT NOME,UPPER(NOME) FROM DEPENDENTE WHERE LIKE 'SILVA%';
